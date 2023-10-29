@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: block;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+body{
+    font-family: 'Open Sans', sans-serif;;
+}
+
+
+.button{
+    background-color: #cfc91d;
+    color: black;
+    padding: 19px 42px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+
+.heading h2{
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/* navigation Bar Start */
+nav{
+    background-color: #02918c;
+    
+
+}
+nav .row{
+    align-items: center;
+}
+nav .logo{
+    width: 30%;
+    
+}
+nav .menu{
+    width: 70%;
+    text-align: right;
+    
+}
+nav .menu li{
+    display: inline-block;
+}
+
+nav .menu li a{
+    font-weight: 800;
+    color: #ffff;
+    font-size: 16px;
+    padding: 26px 25px;
+    display: block;
+
+}
+/* navigation Bar ends */
+
+
+/* Banner Starts */
+#banner{
+    background-image: url(../images/MYFOLIO.jpg);
+    height: 728px;
+    background-size: cover;
+    background-position: center;
+}
+#banner .row{
+    align-items: center;
+    height: 728px;
+}
+.banner-text{
+    text-align: center;
+    width: 100%;
+}
+.banner-text h3{
+    color: #ffff;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+.banner-text h1{
+    color: #ffff;
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 25px;
+
+}
+
+.banner-text p{
+    color: #ffff;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.banner-text img{
+    margin: 50px 0;
+}
+
+/* Banner ends */
+
+
+/* about Section starts */
+
+.heading{
+    text-align: center;
+}
+
+#about{
+    padding: 98px 0;
+}
+
+.paragraph p{
+    text-align: center;
+    font-size: 16px;
+    color: #7e8287;
+
+}
+span{
+    font-size: 23px;
+}
+
+.aboutcard{
+    width: 25%;
+    padding: 70px 0;
+    text-align: center;
+    border-right: 1px solid #7e8287 ;
+}
+
+.aboutcard h5{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+}
+
+.aboutcard p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #7e8287;
+}
+/* about Section ends */
+
+/* services Section starts */
+
+#services{
+    background-image: url(../images/MYFOLIO-03.jpg);
+    background-size: cover;
+    height: 728px;
+    background-position: left;
+}
+
+#services .heading{
+    text-align: left;
+    padding: 72px 0;
+}
+
+#services .paragraph1{
+    font-size: 16px;
+    text-align: left;
+    color: #7e8287;
+}
+
+/* services Section ends */
